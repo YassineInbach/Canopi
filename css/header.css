@@ -8,7 +8,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 110px;
+    padding: 15px 220px;/*110px*/
     background-color: rgba(70, 70, 70, var(--bg-opacity));
   }
 .logo {
