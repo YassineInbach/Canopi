@@ -1,0 +1,330 @@
+@import url("./reset.css");
+@import url("./font.css");
+/****************************************************************** index.html******************************************************************/
+.hero-section::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../assests/images/bg-hero-section.png");
+  background-repeat: round;
+  background-size: cover;
+  height: 90vh;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  width: 295px;
+  font-size: 25px;
+  line-height: 37px;
+}
+
+.section-images {
+  position: relative;
+  background-color: var(--green);
+  padding: 50px 0 40px;
+  text-align: center;
+}
+
+.swiper {
+  display: flex;
+}
+
+.swiper-card {
+  display: flex;
+  column-gap: 30px;
+  margin: 35px 100px 0;
+  overflow: hidden;
+}
+
+.swiper-img {
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.prev-btn,
+.next-btn {
+  border: none;
+  position: absolute;
+  top: 47%;
+  cursor: pointer;
+  z-index: 2;
+  background-color: transparent;
+  font-size: 50px;
+  color: var(--white);
+  margin: 0 40px;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+
+.swiper-btn {
+  display: flex;
+  justify-content: center;
+  gap: 0 10px;
+  margin-top: 25px;
+}
+
+.swiper-btn button {
+  border: 1.8px solid var(--white);
+  width: 12px;
+  height: 12px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.section-bg {
+  background-color: var(--white);
+}
+
+.section-chiesi {
+  text-align: center;
+  padding: 50px 60px 0;
+}
+
+.chiesi {
+  width: 125px;
+  vertical-align: text-top;
+}
+
+.chiesi-describe {
+  font-size: 20.51px;
+  font-family: "inter-bold", sans-serif;
+  max-width: 600px;
+  line-height: 30px;
+  text-align: center;
+  margin: 40px auto 0;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  column-gap: 60px;
+  border: 1.5px solid var(--green);
+  padding: 20px 10px;
+}
+
+.flex:nth-child(3) {
+  margin: 50px 0 0;
+}
+
+.flex:nth-child(4) {
+  margin: 20px 0;
+}
+
+.box-content {
+  max-width: 335px;
+}
+
+.content:nth-child(2) {
+  margin: 10px 0;
+}
+
+.content:nth-child(5) {
+  margin-bottom: 15px;
+}
+
+.content {
+  font-size: 15px;
+}
+
+.image {
+  width: 340px;
+}
+/****************************************************************** index.html******************************************************************/
+
+
+/****************************************************************** canopi.html******************************************************************/
+.hero-canopi {
+   position: relative; 
+}
+.hero-content-container{
+  padding: 100px 100px 30px;
+}
+.hero-canopi::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-image: url("../assests/images/bg-conapi.png");
+  background-repeat: round;
+  background-size: cover;
+} 
+
+.hero-title {
+  font-size: 4.5em;
+  font-family: "inter-regular", sans-serif;
+  letter-spacing: 8px;
+  color: var(--green);
+}
+
+.hero-logo {
+  width: 70px;
+}
+
+.acronym {
+  font-family: "inter-bold";
+  font-size: 18px;
+  color: var(--green);
+}
+
+.event-description {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: "inter-bold";
+  line-height: 27px;
+}
+
+.event-highlights {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 12px 0;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.highlight-image {
+  width: 100px;
+  height: 95px;
+}
+
+.highlight-item {
+  max-width: 110px;
+  text-align: center;
+}
+
+.highlight-title {
+  font-size: 12px;
+  margin-top: 7px;
+}
+.content-section{
+  background-color: var(--white);
+  padding:60px;
+}
+
+.section-paragraph:nth-child(3){
+  text-align: center;
+}
+.image-list{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  column-gap: 3em;
+}
+.image-list img{
+  width: 150px;
+  height: 100px;
+}
+ .custom-video{
+  display: block;
+  margin: 30px auto 0;
+  width: 550px;
+} 
+.section-presentation {
+  background-color: var(--light-aqua);
+  padding: 60px 60px 50px;
+}
+.title-presentation {
+  color: var(--color-text);
+  margin-bottom: 12px;
+}
+.title-presentation , .detail-presentation{
+  text-align: center;
+}
+.list-cards{
+  display: flex;
+  align-items: stretch;
+  gap: 40px 20px;
+  flex-wrap: wrap;
+  margin-top : 40px;
+}
+
+.card-image{
+  width: 100%;
+}
+.card{
+  background-color: var(--green);
+  max-width: 263px;
+}
+.content-card{
+  padding: 19px 10px;}
+.card-describe {
+  font-family: "inter-semibold", sans-serif;
+  line-height: 18px;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.card-describe , .card-authors{
+  color: var(--white);
+}
+
+.card-authors {
+  font-family: "inter-regular", sans-serif;
+  font-size: 11px;
+  line-height: 15px;}
+
+.content-card-size {
+  padding: 10px;
+}
+
+.list-cards li:nth-child(11) .content-card{
+  padding: 11px 10px;
+}
+
+/****************************************************************** canopi.html******************************************************************/
+
+.edition {
+  background-color: var(--white);
+  text-align: center;
+  padding: 40px 0;
+}
+
+.line {
+  display: block;
+  width: 85%;
+  height: 1.4px;
+  margin: 35px auto 55px;
+  background-color: var(--green);
+}
+
+.link-edition {
+  background-color: var(--sky-blue);
+  font-size: 15px;
+  border-radius: 7px;
+  padding: 18px 45px;
+}
+
+.edition-img {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  justify-content: center;
+  margin: 70px 0 0;
+}
+
+.img:nth-child(1) {
+  width: 110px;
+}
+
+.img {
+  width: 45px;
+}
+
+

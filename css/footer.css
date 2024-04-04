@@ -1,0 +1,16 @@
+footer {
+    padding: 15px;
+    background-color: var(--green);
+  }
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 76px;
+  }
+  
+  .footer-link {
+    font-size: 12px;
+    font-family: "inter-regular", sans-serif;
+  }
+  

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "inter-regular";
+    src: url("../assests/fonts/inter-regular.ttf") format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: "inter-medium";
+    src: url("../assests/fonts/inter-medium.ttf") format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: "inter-semibold";
+    src: url("../assests/fonts/inter-semibold.ttf") format('truetype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: "inter-bold";
+    src: url("../assests/fonts/inter-bold.ttf") format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "inter-extrabold";
+    src: url("../assests/fonts/inter-extrabold.ttf") format('truetype');
+    font-weight:800;
+}
