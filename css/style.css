@@ -394,7 +394,9 @@
 .image1 {
   width: 250px;
 }
-
+.content-img{
+  vertical-align: bottom;
+}
 .content-img:nth-child(2) {
   width: 170px;
   height: 250px;
