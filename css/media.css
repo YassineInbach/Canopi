@@ -1,0 +1,251 @@
+
+/*************************************************************************All media query => {Pages} *************************************************************/
+@media screen and (max-width: 950px) {
+    .list-cards {
+        gap: 40px 15px;
+    }
+    .list-cards li:nth-child(n+7) {
+        display: none;
+    }
+    .list-cards li:nth-child(4) .content-card {
+        padding: 11px 10px;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .hero-content-container {
+        padding: 100px 60px 30px;
+    }
+    
+    .event-section,
+    .content-section,
+    .section-remis {
+        padding: 40px 20px;
+    }
+    .list-cards {
+        justify-content: center;
+        gap: 23px 12px;
+    }
+    .frise-hero-content {
+        padding: 190px 20px;
+    }
+    .content-img:nth-child(1) {
+        margin-right: 10px;
+    }
+    .box-remis {
+        column-gap: 20px;
+        margin: 30px 0 25px;
+    }
+}
+@media screen and (max-width: 873px) {
+    .box-remis{
+        align-items: normal;
+    }
+    .content-img:nth-child(1) {
+        margin-bottom: 10px;
+    }
+    .content-img:nth-child(1),
+    .content-img:nth-child(2) {
+        width: 100%;
+    }
+    .content-remis p:nth-child(1) {
+        font-size: 17px;
+        margin-bottom: 12px;
+    }
+}
+@media screen and ( max-width : 804px){
+    .content {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 783px) {
+    .hero-title {
+        font-size: 3em;
+    }
+    .hero-logo {
+        width: 45px;
+    }
+    .event-description {
+        margin-top: 35px;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .highlight-image {
+        width: 71px;
+        height: 68px;
+    }
+    .image-list img {
+        width: 100px;
+        height: 100px;
+    }
+    .frise-img {
+        padding: 40px;
+    }
+    .flex {
+        gap: 20px 0;
+        padding: 20px;
+        flex-direction: column;
+    }
+    .box-content {
+        max-width: max-content;
+    }
+    .image {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-width: 738px) {
+    h1{
+        font-size: 27px;
+    }
+    .frise-hero-content p:nth-child(2) {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+@media screen and (max-width : 700px){
+    .hero-section{
+        margin: 0 10px;
+    } 
+    .hero-content {
+        height: 80vh;
+        font-size: 23px;
+        line-height: 35px;
+        text-align: center;
+        width: auto;
+        color: var(--white);
+    }
+    .hero-section::before {
+        height: 80vh;
+        opacity: 0.55;
+    }
+}
+@media screen and (max-width: 600px) {
+    .section-chiesi h2{
+        font-size: 19px;
+    }
+    .box-remis {
+        gap: 22px 0;
+        flex-direction: column;
+    }
+    .section-images{
+        padding: 30px 20px;
+    }
+    .image1 {
+        width: 100%;
+        height: 290px;
+    }
+    .chiesi-describe {
+        font-size: 13px;
+        line-height: 21px;
+        margin: 20px auto 0;
+    }
+
+    .chiesi {
+        width: 84px;
+    }
+    .flex:nth-child(3) {
+        margin: 30px 0 0;
+    }
+    .custom-video {
+        width: 100%;
+    }
+    .card-image{
+        height: 200px;
+    }
+}
+@media screen and (max-width : 618px){
+    .card {
+        max-width: inherit;
+        width: 100%;
+    }
+    .list-cards {
+        display: grid;
+    }
+    .content-card {
+        padding: 10px ;
+    }
+    .section-chiesi {
+        padding: 40px 20px 0;
+    }
+    
+}
+@media screen and (max-width: 530px) {
+    h1{
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 23px;
+    }
+    h3 {
+        font-size: 17px;
+        line-height: 26px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .hero-content-container {
+        padding: 100px 28px 30px;
+    }
+    .highlight-item {
+        max-width: 70px;
+         }
+    .hero-title {
+        font-size: 2em;
+    }
+    .hero-logo {
+        width: 28px;
+    }
+    .event-section {
+        padding: 20px;
+    }
+    .event-description {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .highlight-image {
+        width: 61px;
+        height: 57px;
+    }
+    .highlight-title {
+        font-size: 11px;
+    }
+    .image-list img {
+        width: 50px;
+        height: 50px;
+    }
+    .link-edition {
+        font-size: 13px;
+        padding: 13px 25px;
+    }
+    .edition-img {
+        margin: 52px 0 0;
+    }
+    .frise-hero-title {
+        font-size: 2.5em;
+    }
+    .download {
+        padding: 12px 0;
+        max-width: 230px;
+    }
+    .download-icon {
+        width: 15px;
+    }
+    .download-link {
+        font-size: 10px;
+        margin: 0 20px 0;
+    }
+
+    .swiper-img {
+        padding: 0px 5px !important;
+        height: 200px;
+     }
+    .hero-section::before , .hero-content {
+        height: 70vh;
+    }
+}
+/*************************************************************************All media query => {Pages} *************************************************************/
+

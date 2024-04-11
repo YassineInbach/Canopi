@@ -5,10 +5,10 @@ header {
     position: fixed;
     z-index: 1;
     width: 100%;
-    display: flex;
+    display: flex ;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 220px;/*110px*/
+    padding: 15px 110px;/*110px*/
     background-color: rgba(70, 70, 70, var(--bg-opacity));
   }
 .logo {
@@ -28,7 +28,7 @@ header {
 }
 
 .logo-describe {
-  color: var(--gray);
+  color: var(--white);
   font-size: 7.2px;
   line-height: 0;
   margin-top: 4px;
@@ -40,7 +40,7 @@ header {
 }
 
 .navigation {
-  display: flex;
+  display: flex ;
   align-items: center;
   column-gap: 80px;
 }
@@ -81,7 +81,51 @@ header {
   background-color: var(--white);
 }
 
-.active:hover + .dropdown,
+/* .active:hover + .dropdown,
 .dropdown:hover {
   display: block;
+  
+} */
+.show {
+  display: block !important;
 }
+/*************************************************************************Media Query/*************************************************************************/
+@media screen and (max-width : 1091px){
+  header{
+    padding: 15px 25px;
+  }
+  .navigation {
+    column-gap: 19px;
+}
+}
+
+@media screen and (max-width : 797px){
+  .toolbox-link{
+  display: none;
+}
+}
+
+@media screen and (max-width : 596px){  
+  .logo-link {
+    font-size: 27px;
+}
+.logo-describe {
+  font-size: 5px;
+ }
+  .logo img {
+    width: 34px;
+    height: 31px;
+ }
+ .active {
+  font-size: 15px;
+  padding: 10px 22px;
+}
+.dropdown {
+  top: 62px;
+  width: 160px;
+ }
+ .item::after {
+  width: 122px;
+ }
+}
+/*************************************************************************Media Query/*************************************************************************/

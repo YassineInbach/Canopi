@@ -1,7 +1,9 @@
 @import url("./reset.css");
 @import url("./font.css");
-
 /****************************************************************** index.html******************************************************************/
+.hero-section{
+  margin: 0 0 0 30px;
+}
 .hero-section::before {
   content: "";
   position: absolute;
@@ -14,7 +16,6 @@
   background-size: cover;
   height: 90vh;
 }
-
 .hero-content {
   display: flex;
   align-items: center;
@@ -23,65 +24,48 @@
   font-size: 25px;
   line-height: 37px;
 }
-
 .section-images {
-  position: relative;
   background-color: var(--green);
-  padding: 50px 0 40px;
+  padding: 50px 20px; /*50px 0 40px */
   text-align: center;
 }
-
-.swiper {
-  display: flex;
-}
-
-.swiper-card {
-  display: flex;
-  column-gap: 30px;
-  margin: 35px 100px 0;
-  overflow: hidden;
-}
-
 .swiper-img {
-  width: 220px;
-  height: 150px;
+  width: 100% !important;/*100%*/
+  height: 180px ;
+  padding: 0 10px !important;/*10*/
   object-fit: cover;
 }
+.slider{
+  margin: 35px 0 0 !important;
+}
+.slick-dots li {
+  display: inline-block;
+  margin:0 7px;
+}
+.slick-dots .slick-active button {
+  background-color: var(--white);
+}
 
-.prev-btn,
-.next-btn {
+.slick-dots button {
+  color: transparent;
+  background-color:var(--light-aqua);
   border: none;
-  position: absolute;
-  top: 47%;
-  cursor: pointer;
-  z-index: 2;
-  background-color: transparent;
-  font-size: 50px;
-  color: var(--white);
-  margin: 0 40px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
 }
 
-.prev-btn {
-  left: 0;
+.slick-dots button:hover {
+  background-color: black;
+}
+.slick-dots {
+  margin: 25px 0 0 !important;
 }
 
-.next-btn {
-  right: 0;
-}
-
-.swiper-btn {
-  display: flex;
-  justify-content: center;
-  gap: 0 10px;
-  margin-top: 25px;
-}
-
-.swiper-btn button {
-  border: 1.8px solid var(--white);
-  width: 12px;
-  height: 12px;
-  border-radius: 10px;
-  background: transparent;
+ .section-images {
+  background-color: var(--green);
+  padding: 50px 20px; /*50px 0 40px */
+  text-align: center;
 }
 
 .section-bg {
@@ -112,7 +96,7 @@
   align-items: center;
   justify-content: center;
   text-align: start;
-  column-gap: 60px;
+  column-gap: 30px;
   border: 1.5px solid var(--green);
   padding: 20px 10px;
 }
@@ -126,7 +110,7 @@
 }
 
 .box-content {
-  max-width: 335px;
+  max-width: 390px;
 }
 
 .content:nth-child(2) {
@@ -230,6 +214,7 @@
 
 .section-paragraph:nth-child(3) {
   text-align: center;
+  margin: 12px 0;
 }
 
 .image-list {
@@ -395,7 +380,7 @@
   width: 250px;
 }
 .content-img{
-  vertical-align: bottom;
+  vertical-align: bottom !important;
 }
 .content-img:nth-child(2) {
   width: 170px;
@@ -415,7 +400,7 @@
   background-color: white;
   padding: 15px 0;
   border-radius: 8px;
-  width: 410px;
+  max-width: 410px;
   margin: 0 auto;
 }
 
@@ -466,3 +451,4 @@
 .img {
   width: 45px;
 }
+

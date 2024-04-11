@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/media.css">
     <script src="https://kit.fontawesome.com/04a76b9a09.js" crossorigin="anonymous"></script>
 </head>
 
@@ -24,9 +25,9 @@
         <nav class="navigation">
             <ul>
                 <li>
-                    <a href="../index.html" class="active">L’édition 2023 <i class="fas fa-caret-down"></i>
+                    <a href="#" class="active" id = "dropdownToggle">L’édition 2023 <i class="fas fa-caret-down"></i>
                     </a>
-                    <ul class="dropdown">
+                    <ul class="dropdown" id="dropdownMenu">
                         <li class="item">
                             <a href="canopi.html" class="link">CANOPI 2023</a>
                         </li>
@@ -40,10 +41,10 @@
                     </ul>
                 </li>
             </ul>
-            <a href="">La boîte à outils de l’IPA</a>
+            <a href="" class="toolbox-link">La boîte à outils de l’IPA</a>
         </nav>
     </header>
-    <div class="container">
+    <div class="container-page">
         <main>
             <section class="frise-hero-section">
                 <div class="frise-hero-content">
@@ -244,7 +245,7 @@
             </ul>
         </footer>
     </div>
-
+    <script src="../main.js"></script>
 </body>
 
 </html>

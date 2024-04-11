@@ -4,9 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.css" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/header.css" />
   <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/media.css">
   <link rel="icon" type="png" href="./assests/images/logo.png" />
   <script src="https://kit.fontawesome.com/04a76b9a09.js" crossorigin="anonymous"></script>
   <title>Edition 2023</title>
@@ -24,25 +26,29 @@
     <nav class="navigation">
       <ul>
         <li>
-          <a href="" class="active">L’édition 2023 <i class="fas fa-caret-down"></i>
+          <a href="#" class="active" id="dropdownToggle">L’édition 2023 <i class="fas fa-caret-down"></i>
           </a>
-          <ul class="dropdown">
-            <li class="item"><a href="./pages/canopi.html" class="link">CANOPI 2023</a></li>
+          <ul class="dropdown" id="dropdownMenu">
+            <li class="item">
+              <a href="./pages/canopi.html" class="link">CANOPI 2023</a>
+            </li>
             <li class="item">
               <a href="./pages/canopi.html#presentation" class="link">Les présentations</a>
             </li>
             <li class="item">
               <a href="./pages/frises.html" class="link">Les frises graphiques</a>
             </li>
-            <li><a href="./pages/frises.html#remis" class="link">Le remis</a></li>
+            <li>
+              <a href="./pages/frises.html#remis" class="link">Le remis</a>
+            </li>
           </ul>
         </li>
       </ul>
-      <a href="">La boîte à outils de l’IPA</a>
+      <a href="" class="toolbox-link">La boîte à outils de l’IPA</a>
     </nav>
   </header>
 
-  <div class="container">
+  <div class="container-page">
     <main>
       <section class="hero-section">
         <p class="hero-content">
@@ -50,49 +56,39 @@
           Pneumologie
         </p>
       </section>
+
       <section class="section-images">
         <h1>CANOPI 2023 EN IMAGES</h1>
-        <div class="swiper">
-          <button class="prev-btn">&#10094;</button>
-          <ul class="swiper-card">
-            <li>
-              <img class="swiper-img" src="./assests/images/img1.jpg" alt="" />
-            </li>
-            <li>
-              <img class="swiper-img" src="./assests/images/img2.jpg" alt="" />
-            </li>
-            <li>
-              <img class="swiper-img" src="./assests/images/img3.jpg" alt="" />
-            </li>
-            <li>
-              <img class="swiper-img" src="./assests/images/img4.jpg" alt="" />
-            </li>
-            <li>
-              <img class="swiper-img" src="./assests/images/fieutelot.jpg" alt="" />
-            </li>
-            <li>
-              <img class="swiper-img" src="./assests/images/virginie.jpg" alt="" />
-            </li>
-            <li>
-              <img class="swiper-img" src="./assests/images/ludovic.jpg" alt="" />
-            </li>
-            <li>
-              <img class="swiper-img" src="./assests/images/mylène.jpg" alt="" />
-            </li>
-          </ul>
-          <button class="next-btn">&#10095;</button>
-        </div>
-        <div class="swiper-btn">
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-        </div>
+        <!-- Slider -->
+        <ul class="slider responsive">
+          <li>
+            <img class="swiper-img" src="./assests/images/img1.jpg" alt="" />
+          </li>
+          <li>
+            <img class="swiper-img" src="./assests/images/img2.jpg" alt="" />
+          </li>
+          <li>
+            <img class="swiper-img" src="./assests/images/img3.jpg" alt="" />
+          </li>
+          <li>
+            <img class="swiper-img" src="./assests/images/img4.jpg" alt="" />
+          </li>
+          <li>
+            <img class="swiper-img" src="./assests/images/fieutelot.jpg" alt="" />
+          </li>
+          <li>
+            <img class="swiper-img" src="./assests/images/virginie.jpg" alt="" />
+          </li>
+          <li>
+            <img class="swiper-img" src="./assests/images/ludovic.jpg" alt="" />
+          </li>
+          <li>
+            <img class="swiper-img" src="./assests/images/mylène.jpg" alt="" />
+          </li>
+        </ul>
+        <!-- Slider -->
       </section>
+
       <div class="section-bg">
         <section class="section-chiesi">
           <h2>
@@ -175,6 +171,8 @@
       </ul>
     </footer>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
   <script src="./main.js"></script>
 </body>
 
