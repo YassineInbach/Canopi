@@ -10,6 +10,9 @@
     .list-cards li:nth-child(4) .content-card {
         padding: 11px 10px;
     }
+    .edition{
+        padding: 40px 8px;
+    }
 }
 
 @media screen and (max-width: 939px) {
