@@ -113,7 +113,7 @@
         margin: 0 10px;
     } 
     .hero-content {
-        height: 80vh;
+        height: 75vh;
         font-size: 23px;
         line-height: 35px;
         text-align: center;
@@ -121,8 +121,8 @@
         color: var(--white);
     }
     .hero-section::before {
-        height: 80vh;
-        opacity: 0.55;
+        height: 75vh;
+        opacity: 0.8;
     }
 }
 @media screen and (max-width: 600px) {
@@ -157,6 +157,9 @@
     }
     .card-image{
         height: 200px;
+    }
+    .hero-section::before{
+        background-image: url('../assests/images/canopi.png');
     }
 }
 @media screen and (max-width : 618px){
@@ -246,11 +249,9 @@
         padding: 0px 5px !important;
         height: 200px;
      }
-     .hero-section::before{
-        opacity: 0.6;
-     }
+    
     .hero-section::before , .hero-content {
-        height: 55vh;
+        height: 60vh;
     }
 }
 /*************************************************************************All media query => {Pages} *************************************************************/
