@@ -246,8 +246,11 @@
         padding: 0px 5px !important;
         height: 200px;
      }
+     .hero-section::before{
+        opacity: 0.6;
+     }
     .hero-section::before , .hero-content {
-        height: 70vh;
+        height: 55vh;
     }
 }
 /*************************************************************************All media query => {Pages} *************************************************************/
