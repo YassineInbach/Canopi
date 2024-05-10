@@ -11,7 +11,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background-image: url("../assests/images/bgherosection.png");
+  background-image: url("../assets/images/bgherosection.png");
   background-repeat: round;
   background-size: cover;
   height: 90vh;
@@ -149,7 +149,7 @@
   left: 0;
   right: 0;
   height: 100%;
-  background-image: url("../assests/images/bgconapi.png");
+  background-image: url("../assets/images/bgconapi.png");
   background-repeat: round;
   background-size: cover;
 }
@@ -317,7 +317,7 @@
   left: 0;
   right: 0;
   height: 100%;
-  background-image: url("../assests/images/bgfrises.png");
+  background-image: url("../assets/images/bgfrises.png");
   background-repeat: round;
   background-size: cover;
   opacity: 0.3;

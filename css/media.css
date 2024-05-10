@@ -159,7 +159,7 @@
         height: 200px;
     }
     .hero-section::before{
-        background-image: url('../assests/images/canopi.png');
+        background-image: url('../assets/images/canopi.png');
     }
 }
 @media screen and (max-width : 618px){
